@@ -31,6 +31,10 @@ Upon validation, the model performs with high accuracy in gender detection, able
 
 
 
+
+
+
+
 **Face Recognition**
 
 **Face Recognition** project aims to detect and authenticate human faces based on deep learning methods. The system is trained with an image dataset of labelled facial images from several individuals. It employs **face embedding** methods driven by a **Triplet Network** architecture and a **Convolutional Neural Network (CNN**) for efficient facial feature extraction and matching.
@@ -49,6 +53,9 @@ TASK B custom dataset
 
 Positive match (label=1). Best matching identity  
  folder: test-dataset with similarity 0.9908
+
+
+
 
 
 
