@@ -1,4 +1,4 @@
-**GENDER CLASSIFICATION**
+                                                    **GENDER CLASSIFICATION**
 
 The **Gender Classification** project relies on image-based data to automatically classify the gender of a person by adopting a deep learning paradigm. The system is trained on Image Dataset 1, comprising two classes:
 
@@ -13,22 +13,24 @@ Aside from Dataset 1, the model is also evaluated on two multiclass test and tra
 Upon validation, the model performs with high accuracy in gender detection, able to identify male and female classes well in both structured and unstructured settings. The project illustrates how deep learning, specifically CNNs, can be utilized in real-time gender classification tasks with potential real-world applications in security systems, marketing analysis, and intelligent human-computer interaction.
 
 ![image](https://github.com/user-attachments/assets/97511606-4b53-4390-a1fb-ace92edd0a40)
-Total images processed: 1
-Number of females predicted: 0
-Number of males predicted: 1
-Average confidence for female predictions: 0.00%
-Average confidence for male predictions: 99.93%
+
+                         Total images processed: 1
+                         Number of females predicted: 0
+                         Number of males predicted: 1
+                         Average confidence for female predictions: 0.00%
+                         Average confidence for male predictions: 99.93%
 
 
 ![image](https://github.com/user-attachments/assets/7fef035b-447b-4028-928f-b8a6d12533de)
-Total images processed: 1
-Number of females predicted: 1
-Number of males predicted: 0
-Average confidence for female predictions: 99.97%
-Average confidence for male predictions: 0.00%
+
+                        Total images processed: 1
+                        Number of females predicted: 1
+                        Number of males predicted: 0
+                        Average confidence for female predictions: 99.97%
+                        Average confidence for male predictions: 0.00%
 
 
-**Face Recognition**
+                                                      **Face Recognition**
 
 **Face Recognition** project aims to detect and authenticate human faces based on deep learning methods. The system is trained with an image dataset of labelled facial images from several individuals. It employs **face embedding** methods driven by a **Triplet Network** architecture and a **Convolutional Neural Network (CNN**) for efficient facial feature extraction and matching.
 
@@ -46,6 +48,8 @@ TASK B custom dataset
 
 Positive match (label=1). Best matching identity  
  folder: test-dataset with similarity 0.9908
+
+
 
 ![image](https://github.com/user-attachments/assets/601fd30c-525a-418f-ae2b-4259ba268bc5)
 
