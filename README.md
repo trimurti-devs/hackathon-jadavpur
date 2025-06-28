@@ -12,9 +12,21 @@ Aside from Dataset 1, the model is also evaluated on two multiclass test and tra
 
 Upon validation, the model performs with high accuracy in gender detection, able to identify male and female classes well in both structured and unstructured settings. The project illustrates how deep learning, specifically CNNs, can be utilized in real-time gender classification tasks with potential real-world applications in security systems, marketing analysis, and intelligent human-computer interaction.
 
-![](media/bae8a444f54de626507653cc53a51a53.jpeg)
+![image](https://github.com/user-attachments/assets/97511606-4b53-4390-a1fb-ace92edd0a40)
+Total images processed: 1
+Number of females predicted: 0
+Number of males predicted: 1
+Average confidence for female predictions: 0.00%
+Average confidence for male predictions: 99.93%
 
-![](media/036646c6c09b970a1f9bed061eb6cfa5.jpeg)
+
+![image](https://github.com/user-attachments/assets/7fef035b-447b-4028-928f-b8a6d12533de)
+Total images processed: 1
+Number of females predicted: 1
+Number of males predicted: 0
+Average confidence for female predictions: 99.97%
+Average confidence for male predictions: 0.00%
+
 
 **Face Recognition**
 
@@ -26,13 +38,14 @@ In order to confirm the model's performance, extensive testing is conducted with
 
 This method makes it possible to use robust face recognition applicable in applications like surveillance, biometric authentication, intelligent access control systems, and personalized services.
 
-![](media/2a1e009f40f7b498da071cef6539056c.png)
+![image](https://github.com/user-attachments/assets/0e8a5f46-bb14-417c-8f0c-b19e148ff26b)
 
 TASK B custom dataset
 
-![](media/eb25673d27a544301918aa84abddb1d5.png)
+![image](https://github.com/user-attachments/assets/d49c441d-6b79-4088-8e9e-790ac643aad8)
 
 Positive match (label=1). Best matching identity  
  folder: test-dataset with similarity 0.9908
 
-![](media/376292b4d73c093a48e2fd70a2b9a1f0.png)
+![image](https://github.com/user-attachments/assets/601fd30c-525a-418f-ae2b-4259ba268bc5)
+
