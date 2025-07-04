@@ -69,7 +69,7 @@ After running the evaluation script(evaluate_siamese.py),the result is
 
 
 
-    ![test b](https://github.com/user-attachments/assets/42c7a6dc-92cc-4388-af9c-b0b7025ed01c)
+   ![test b](https://github.com/user-attachments/assets/42c7a6dc-92cc-4388-af9c-b0b7025ed01c)
 
 
 
