@@ -35,7 +35,7 @@ After runnig the evaluation script (evaluate_gender.py), the results
 
 
 
-![test a](https://github.com/user-attachments/assets/45d712f8-ac9f-4246-a2f0-bec3d8d39d58)
+ ![test a](https://github.com/user-attachments/assets/45d712f8-ac9f-4246-a2f0-bec3d8d39d58)
 
 
 
@@ -65,7 +65,11 @@ Positive match (label=1). Best matching identity
 
 
 After running the evaluation script(evaluate_siamese.py),the result is 
-![test b](https://github.com/user-attachments/assets/42c7a6dc-92cc-4388-af9c-b0b7025ed01c)
+
+
+
+
+    ![test b](https://github.com/user-attachments/assets/42c7a6dc-92cc-4388-af9c-b0b7025ed01c)
 
 
 
