@@ -53,6 +53,7 @@ def evaluate(model, data_loader, criterion, device, threshold=1.0):
 
 def main():
     # Parameters
+    train_dir = "C:/workspace-python/hackathon-jadavpur/siamese_face/train"
     val_dir = "C:/workspace-python/hackathon-jadavpur/siamese_face/val"
     model_path = "C:/workspace-python/hackathon-jadavpur/try/siamese_face_matcher.pth"
     batch_size = 16
@@ -60,10 +61,16 @@ def main():
     margin = 1.0
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    # Load validation dataset
+    # Load datasets
+    train_dataset = TripletFaceDataset(train_dir, transform=transform)
     val_dataset = TripletFaceDataset(val_dir, transform=transform)
+
+    if len(train_dataset) == 0:
+        raise ValueError("[❌] No training data found. Check your folder structure.")
     if len(val_dataset) == 0:
         raise ValueError("[❌] No validation data found. Check your folder structure.")
+
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=False)
     val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
 
     # Load model
@@ -74,25 +81,44 @@ def main():
     # Loss function
     criterion = nn.TripletMarginLoss(margin=margin, p=2)
 
-    # Evaluate
-    avg_loss, accuracy, precision, recall, f1 = evaluate(model, val_loader, criterion, device, threshold)
+    # Evaluate on train dataset
+    train_loss, train_acc, train_prec, train_rec, train_f1 = evaluate(model, train_loader, criterion, device, threshold)
 
-    # Print results
-    print("Evaluation Results:")
+    # Evaluate on val dataset
+    val_loss, val_acc, val_prec, val_rec, val_f1 = evaluate(model, val_loader, criterion, device, threshold)
+
+    # Print results for train dataset
+    print("Train Dataset Evaluation Results:")
     print(f"{'Metric':<10} | {'Value':<10}")
     print("-" * 25)
-    print(f"{'Loss':<10} | {avg_loss:<10.4f}")
-    print(f"{'Accuracy':<10} | {accuracy:<10.4f}")
-    print(f"{'Precision':<10} | {precision:<10.4f}")
-    print(f"{'Recall':<10} | {recall:<10.4f}")
-    print(f"{'F1 Score':<10} | {f1:<10.4f}")
-    print("\nEvaluation Parameters:")
+    print(f"{'Loss':<10} | {train_loss:<10.4f}")
+    print(f"{'Accuracy':<10} | {train_acc:<10.4f}")
+    print(f"{'Precision':<10} | {train_prec:<10.4f}")
+    print(f"{'Recall':<10} | {train_rec:<10.4f}")
+    print(f"{'F1 Score':<10} | {train_f1:<10.4f}")
+    print("\nTrain Dataset Parameters:")
+    print(f"Training Directory: {train_dir}")
+    print(f"Batch Size: {batch_size}")
+    print(f"Threshold: {threshold}")
+    print(f"Margin: {margin}")
+    print(f"Device: {device}")
+    print("\n" + "="*40 + "\n")
+
+    # Print results for val dataset
+    print("Validation Dataset Evaluation Results:")
+    print(f"{'Metric':<10} | {'Value':<10}")
+    print("-" * 25)
+    print(f"{'Loss':<10} | {val_loss:<10.4f}")
+    print(f"{'Accuracy':<10} | {val_acc:<10.4f}")
+    print(f"{'Precision':<10} | {val_prec:<10.4f}")
+    print(f"{'Recall':<10} | {val_rec:<10.4f}")
+    print(f"{'F1 Score':<10} | {val_f1:<10.4f}")
+    print("\nValidation Dataset Parameters:")
     print(f"Validation Directory: {val_dir}")
-    print(f"Model Path: {model_path}")
     print(f"Batch Size: {batch_size}")
     print(f"Threshold: {threshold}")
     print(f"Margin: {margin}")
     print(f"Device: {device}")
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
