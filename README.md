@@ -33,6 +33,8 @@ Upon validation, the model performs with high accuracy in gender detection, able
 
 After runnig the evaluation script (evaluate_gender.py), the results
 
+
+
 ![test a](https://github.com/user-attachments/assets/45d712f8-ac9f-4246-a2f0-bec3d8d39d58)
 
 
