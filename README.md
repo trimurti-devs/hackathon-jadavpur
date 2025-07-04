@@ -12,6 +12,14 @@ Aside from Dataset 1, the model is also evaluated on two multiclass test and tra
 
 Upon validation, the model performs with high accuracy in gender detection, able to identify male and female classes well in both structured and unstructured settings. The project illustrates how deep learning, specifically CNNs, can be utilized in real-time gender classification tasks with potential real-world applications in security systems, marketing analysis, and intelligent human-computer interaction.
 
+
+After running the training script,the result
+
+
+  ![WhatsApp Image 2025-07-04 at 22 52 46_6e8577d6](https://github.com/user-attachments/assets/353ae488-711e-4463-a102-f31cc6bd76e9)
+
+
+
   ![image](https://github.com/user-attachments/assets/97511606-4b53-4390-a1fb-ace92edd0a40)
 
   Total images processed: 1
@@ -69,7 +77,10 @@ After running the evaluation script(evaluate_siamese.py),the result is
 
 
 
-   ![test b](https://github.com/user-attachments/assets/42c7a6dc-92cc-4388-af9c-b0b7025ed01c)
+   ![WhatsApp Image 2025-07-04 at 22 55 48_cd9e2738](https://github.com/user-attachments/assets/48cc207a-82db-48dd-b691-1cf029151cb9)
+   ![WhatsApp Image 2025-07-04 at 22 55 21_f7795793](https://github.com/user-attachments/assets/f284a617-e894-4d5c-878c-f12db7eab8ed)
+
+
 
 
 
