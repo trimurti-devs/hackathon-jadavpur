@@ -31,6 +31,11 @@ Upon validation, the model performs with high accuracy in gender detection, able
 
 
 
+After runnig the evaluation script (evaluate_gender.py), the results
+
+![test a](https://github.com/user-attachments/assets/45d712f8-ac9f-4246-a2f0-bec3d8d39d58)
+
+
 
 
 
@@ -55,6 +60,10 @@ Positive match (label=1). Best matching identity
  folder: test-dataset with similarity 0.9908
 
 
+
+
+After running the evaluation script(evaluate_siamese.py),the result is 
+![test b](https://github.com/user-attachments/assets/42c7a6dc-92cc-4388-af9c-b0b7025ed01c)
 
 
 
