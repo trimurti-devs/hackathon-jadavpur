@@ -106,7 +106,8 @@ Positive match (label=1). Best matching identity
 
 
 
-After running the evaluation script(evaluate_siamese.py),the result is 
+After running the evaluation script(evaluate_siamese.py),just change the Train and Val directory path.the result is 
+       python evaluate_siamese.py
 
 
 
