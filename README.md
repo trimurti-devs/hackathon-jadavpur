@@ -106,15 +106,15 @@ Positive match (label=1). Best matching identity
 
 
 
-After running the evaluation script(evaluate_siamese.py),just change the Train and Val directory path.the result is 
-       
+After running the evaluation script(evaluate_siamese.py),just change the Train and Val directory path.
+   This script can be run for test purpose on test dataset ,make sure the test dataset folder structure is like same as Train and Val folder structure.    
        
        
        python evaluate_siamese.py
 
 
 
-
+the result is :
    ![WhatsApp Image 2025-07-04 at 22 55 48_cd9e2738](https://github.com/user-attachments/assets/48cc207a-82db-48dd-b691-1cf029151cb9)
    ![WhatsApp Image 2025-07-04 at 22 55 21_f7795793](https://github.com/user-attachments/assets/f284a617-e894-4d5c-878c-f12db7eab8ed)
 
