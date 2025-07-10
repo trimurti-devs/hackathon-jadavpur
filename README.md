@@ -48,7 +48,8 @@ After runnig the evaluation script (evaluate_gender.py), the results
 
 
 
-
+Use the evaluate_gender.py script just change the test dataset file replacing the val directory path to determine all the parameters like Accuracy,F1 ,Recall,Precion
+=> python evaluate_gender.py
 
 **Face Recognition**
 
