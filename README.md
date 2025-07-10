@@ -100,6 +100,11 @@ TASK B custom dataset
 
 ![image](https://github.com/user-attachments/assets/d49c441d-6b79-4088-8e9e-790ac643aad8)
 
+
+Run the script test_veification.py,
+              
+              python test_verification.py <test_image_dir> <identity_dir> <trained_model_path>
+
 Positive match (label=1). Best matching identity  
  folder: test-dataset with similarity 0.9908
 
