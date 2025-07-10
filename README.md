@@ -1,3 +1,17 @@
+Requirements
+Make sure to install the following Python packages:
+
+       pip install torch torchvision scikit-learn pillow
+Or use the provided requirements.txt:
+
+      torch>=1.9.0
+      torchvision>=0.10.0
+      scikit-learn
+      pillow
+  
+  
+  
+  
   **GENDER CLASSIFICATION**
 
 The **Gender Classification** project relies on image-based data to automatically classify the gender of a person by adopting a deep learning paradigm. The system is trained on Image Dataset 1, comprising two classes:
