@@ -99,7 +99,11 @@ This method makes it possible to use robust face recognition applicable in appli
 TASK B custom dataset
 
 ![image](https://github.com/user-attachments/assets/d49c441d-6b79-4088-8e9e-790ac643aad8)
+
+
 Test image
+
+
 
 Run the script test_veification.py,
               
