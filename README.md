@@ -83,6 +83,15 @@ The Triplet Network architecture guarantees that the embeddings for an individua
 
 In order to confirm the model's performance, extensive testing is conducted with real-world facial datasets having different lighting conditions, expressions, and angles. The model can generalize very well and has high accuracy in properly recognizing and distinguishing faces.
 
+
+The folder structure look like this
+
+
+   ![WhatsApp Image 2025-07-11 at 00 13 00_f965716e](https://github.com/user-attachments/assets/b79b3bf4-00c0-4878-b746-ca8ffddf22e6)
+
+
+
+
 This method makes it possible to use robust face recognition applicable in applications like surveillance, biometric authentication, intelligent access control systems, and personalized services.
 
 ![image](https://github.com/user-attachments/assets/0e8a5f46-bb14-417c-8f0c-b19e148ff26b)
