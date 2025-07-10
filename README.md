@@ -105,7 +105,7 @@ Test image
 
 
 
-Run the script test_veification.py,
+Run the script test_verification.py,
               
               python test_verification.py <test_image_dir> <identity_dir> <trained_model_path>
 
