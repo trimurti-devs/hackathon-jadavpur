@@ -115,7 +115,7 @@ Positive match (label=1). Best matching identity
 
 
 
-For testing run the evaluation script(evaluate_siamese.py),just change the Train and Val directory path.
+For testing run the evaluation script(evaluate_siamese.py),just change the  Val directory path.
    This script can be run for test purpose on test dataset ,make sure the test dataset folder structure is like same as Train and Val folder structure.    
        
        
